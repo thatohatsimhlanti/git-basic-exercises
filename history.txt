@@ -1,0 +1,507 @@
+    1  ls
+    2  ls /
+    3  ls /root
+    4  cd
+    5  mkdir 'hello world'/'good day'
+    6  mkdir hello
+    7  mkdir hello/hey
+    8  ls
+    9  ls /hello
+   10  pwd
+   11  mkdir -e hello/hey
+   12  mkdir -p hello/hey
+   13  pwd
+   14  cd hey
+   15  cd hello
+   16  pwd
+   17  cd home
+   18  ls
+   19  cd home/thatohatsi
+   20  cd thatohatsi
+   21  cd home
+   22  ls /
+   23  ls
+   24  ls /home
+   25  git clear
+   26  /hello/hey$ cd /
+   27  /hello cd /
+   28  /hello$ cd /
+   29  /hello/hey$ cd /
+   30  hello/hey$ cd /
+   31  hello/hey cd /
+   32  ls /
+   33  ls
+   34  ls/root
+   35  ls /root
+   36  ls /home
+   37  cd /
+   38  pwd
+   39  cd ~
+   40  pwd
+   41  cd
+   42  pwd
+   43  mkdir Learning_unix
+   44  ls /
+   45  ls
+   46  cd Learning_unix
+   47  mkdir -p Outer_directory/Inner_directory
+   48  pwd
+   49  ls
+   50  ls /Outer_directory
+   51  cd /
+   52  pwd
+   53  cd ~
+   54  pwd
+   55  cd
+   56  pwd
+   57  cd Learning_unix
+   58  ls
+   59  cd /home/ubuntu/
+   60  /Learning_unix/Outer_directory/Inner_directory$ cd /
+   61  Outer_directory/Inner_directory$ cd /
+   62  Outer_directory/Inner_directory cd /
+   63  cd /
+   64  cd home
+   65  cd ubuntu
+   66  ls
+   67  ls /
+   68  cd thatohatsi
+   69  ~$
+   70  pwd
+   71  cd /home/Learning_unix
+   72  cd Learning_unix
+   73  cd /home/thatohatsi/
+   74  ls
+   75  ls /home
+   76  cd Learning_unix
+   77  cd /home/thatohatsi/
+   78  cd Learning_unix/
+   79  cd ..
+   80  cd ../..
+   81  cd Learning_unix/
+   82  cd /..
+   83  pwd
+   84  cd ~
+   85  cd
+   86  pwd
+   87  cd Learning_unix/
+   88  cd ../..
+   89  Learning_unix/
+   90  cd ~
+   91  Learning_unix/
+   92  cd
+   93  cd Learning_unix
+   94  cd /home/thatohatsi/
+   95  cd Learning_unix/
+   96  cd /
+   97  cd ~
+   98  cd
+   99  cd Learning_directory
+  100  cd Learning_linux
+  101  cd Learning_unix
+  102  ls../../
+  103  cd Outer_directory
+  104  cd../../..
+  105  cd ../../..
+  106  cd ..
+  107  cd 
+  108  cd Learning_unix/
+  109  ~/Learning_unix/Outer_directory/
+  110  cd Outer_directory
+  111  ls ../../
+  112  ls ..
+  113  ls ../
+  114  ls ../..
+  115  ls -l
+  116  ls -l/home
+  117  ls -l /home
+  118  cd /
+  119  cd  ..
+  120  cd ../
+  121  cd ~
+  122  cd Learning_unix
+  123  ls
+  124  ls ../../
+  125  ls -l /home
+  126  ls -R /home
+  127  ls -l -t -r
+  128  ls -lh
+  129  man ls
+  130  man cd
+  131  man man
+  132  man ls
+  133  cd /home/thatohatsi
+  134  rmdir hello
+  135  rmdir hello/hey
+  136  ls
+  137  rmdir hello
+  138  ls
+  139  man rmdir
+  140  rmdir Learning_unix/Outer_directory/Inner_directory
+  141  cd Learning_unix
+  142  cd ..
+  143  cd Outer_directory
+  144  cd Learning_unix
+  145  cd Outer_directory
+  146  ls
+  147  cd ../../..
+  148  cd ~
+  149  rmdir Learning_unix/Outer_directory
+  150  ls
+  151  cd Learning_unix
+  152  ls
+  153  cd ..
+  154  cd Learning_unix/
+  155  clear
+  156  man rmdir
+  157  node --version
+  158  npm --version
+  159  clear
+  160  curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&sudo apt-get install -y nodejs
+  161  node --version
+  162  node task10.js
+  163  npm init -y
+  164  npm install --save-dev eslint
+  165  eslint --init
+  166  sudo apt install eslint
+  167  npm -y
+  168  [200~sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb
+  169  ~sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb
+  170  npm init @eslint/config
+  171  yarn init
+  172  man rmdir
+  173  apt-get install git
+  174  Y
+  175  add-apt-repository ppa:git-core/ppa
+  176  apt update
+  177  sudo apt-get install git
+  178  git --version
+  179  add=apt=udate-repository ppa:git-core/ppa
+  180  add-apt-repository ppa:git-core/ppa
+  181  apt update
+  182  sudo apt-repository ppa:git-core/ppa
+  183  sudo apt remove git
+  184  sudo add-apt-repository ppa:git-core/ppa -y
+  185  sudo apt-get update
+  186  sudo apt-get install git -y
+  187  git --version
+  188  git config --global user.name "Thatohatsi"
+  189  git config --global user.email thatohatsimhlanti@gmail.com
+  190  sudo apt update
+  191  sudo aptinstall snapd
+  192  sudo apt install snapd
+  193  sudo snap install gmail-desktop
+  194  git user.email
+  195  git config user.email
+  196  git config --global user.email
+  197  git config user.name
+  198  cd hello-world
+  199  clone hello-world https://github.com/thatohatsimhlanti/hllo-world
+  200  git clone hello-world https://github.com/thatohatsimhlanti/hello-world
+  201  git remote -v
+  202  -p curl >/dev/null
+  203  clear
+  204  -p curl
+  205  type -p curl
+  206  >/dev/null
+  207  curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg
+  208  sudo apt update
+  209  sudo apt install curl -y
+  210  sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg sudo chmod go+r /usr/keyrings/githubcli-archive-keyring.gpg
+  211  sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg echo "deb [arch=$(dpkg --print-architecture) signed-by=usr/share/keyrings/gothubcli-archive-keyring.gpg] https://cli.github.com/packages stable main"
+  212  sudo tee /etc/apt/sources.list.d/github-cli.list
+  213  sudo apt update
+  214  sudo apt install curl -y
+  215  sudo apt update sudo apt install gh -y
+  216  clear
+  217  sudo apt update
+  218  /dev/null sudo apt update sudo apt install gh -y
+  219  type -p curl ./dev/null
+  220  sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+  221  sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
+  222  curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg
+  223  sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg
+  224  sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null sudo apt update sudo apt install gh -y
+  225  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main"
+  226  sudo apt update sudo apt install gh -y
+  227  sudo apt update
+  228  sudo wget https://github.com/shiftkey/desktop/releases/download/releases
+  229  cd Downloads
+  230  ls
+  231  sudo apt install ./GitHubDesktop-linux-3.2.0-linux1.deb 
+  232  cd /
+  233  cd ~
+  234  cd
+  235  pwd
+  236  cd Downloads
+  237  sudo apt install ./GitHubDesktop-linux-3.2.0-linux1.deb 
+  238  ls
+  239  cd Downloads
+  240  sudo apt install ./GitHubDesktop-linux-3.2.0-linux1.deb 
+  241  sudo apt git delete
+  242  sudo apt-get remove git
+  243  sudo nano /etc/apt/sources.list.d/github-cli.list
+  244  sudo rm /etc/apt/sources.list.d/github-cli.list
+  245  cd /
+  246  cd ~
+  247  cd
+  248  mkdir hey
+  249  rmdir hey
+  250  ls
+  251  clear
+  252  cd Dowloads
+  253  cd Downloads
+  254  ls
+  255  sudo apt install ./GitHubDesktop-linux-3.2.0-linux1.deb 
+  256  cd /home/Downloads/
+  257  cd /
+  258  cd ~
+  259  cd
+  260  type -p curl >/dev/null
+  261  curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg
+  262  sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main"
+  263  sudo apt update sudo apt install gh -y
+  264  sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null sudo apt update sudo apt install gh -y
+  265  clear
+  266  gh auth login
+  267  sudo snap install gh       # version 2.6.0-15-g1a10fd5a
+  268  gh auth login
+  269  clear
+  270  cd Documents
+  271  git clone
+  272  git clone https://github.com/thatohatsimhlanti/hello-world
+  273  cd /
+  274  cd ~
+  275  cd
+  276  pwd
+  277  mkdir git-basic-exercises
+  278  cd git-basic-exercises
+  279  ls -a
+  280  git init
+  281  ls -a
+  282  git status
+  283  touch README.md
+  284  ls -a
+  285  git status
+  286  git log
+  287  git add README.md
+  288  git status
+  289  git rm --cached README.md
+  290  git status
+  291  git add README.md
+  292  git status
+  293  git commit -m "initial commit"
+  294  git log
+  295  q
+  296  git log
+  297  git log -p
+  298  git status -s
+  299  pwd
+  300  nano README.md
+  301  cat README.md
+  302  git status
+  303  git add README.md
+  304  git commit -m "second commit"
+  305  git status
+  306  cat README.md
+  307  nano README.md
+  308  git log
+  309  nano README.md
+  310  cat README.md
+  311  git status
+  312  git add README.md
+  313  git status
+  314  git add README.md
+  315  git status
+  316  git commit -m "second commit"
+  317  git status
+  318  git add README.md
+  319  git status
+  320  git rm README.md
+  321  git status
+  322  git log
+  323  nano README.md
+  324  cat README.md
+  325  git commit -m "third commit"
+  326  git log
+  327  git checkout 9888ae125cdfe1685a54f57ddef2edcafc4546dd
+  328  rm README.md
+  329  git status
+  330  git rm README.md
+  331  git status
+  332  git add README.md
+  333  git checkout 9888ae125cdfe1685a54f57ddef2edcafc4546dd
+  334  cat README.md
+  335  git checkout main
+  336  cat git checkout master
+  337  git checkout main
+  338  cat README.md
+  339  git commit
+  340  clear
+  341  git branch
+  342  git branch milkshake-flavours
+  343  git branch
+  344  git checkout milkshake-flavours
+  345  nano milkshakes.md
+  346  git status
+  347  git add milkshakes.md
+  348  git status
+  349  git commit -m "added initial flavours"
+  350  git log
+  351  git checkout main
+  352  git checkout master
+  353  git log
+  354  git branch history
+  355  git log
+  356  git branch
+  357  history > history.txt
+  358  git commit -m "added history"
+  359  git add history.txt
+  360  git status
+  361  git commit -m "added history"
+  362  git log
+  363  git checkout milkshake.md
+  364  git checkout milkshake
+  365  git checkout milkshake-flavours
+  366  git log
+  367  git checkout master
+  368  nano README.md
+  369  cat README.md
+  370  git status
+  371  git README.md
+  372  git add README.md
+  373  git commit -m "random readme changes"
+  374  git checkout history
+  375  cat README.md
+  376  rm README.md
+  377  ls
+  378  cd git-basic-exercises
+  379  ls
+  380  cd git-basic-exercises
+  381  node task10.js
+  382  npm init @eslint/config
+  383  sudo apt install npm
+  384  npm init @eslint/config
+  385  npm -g install eslint
+  386  ./node_modules/.bin/eslint --init
+  387  npm install --save-dev eslint
+  388  eslint --init
+  389  cd
+  390  rmdir git-basic-exercises
+  391  man rmdir
+  392  man rm
+  393  npm init @eslint/config
+  394  rmdir --force git-basic-exercises
+  395  cd git-basic-exercises
+  396  ls
+  397  rm -a
+  398  rm --force README.md
+  399  ls
+  400  git rm README.md
+  401  ls 
+  402  git status
+  403  git add README.md
+  404  cd..
+  405  cd ..
+  406  cd git-basic-exercises
+  407  ls
+  408  rm -r
+  409  man rm
+  410  cd ..
+  411  rm -r git-basic-exercises
+  412  y
+  413  cd git-basic-exercides
+  414  cd git-basic-exercises
+  415  ls
+  416  cd ..
+  417  rmdir git-basic-exercises
+  418  rm -r /home/git-basic-exercises/thatohatsimhlanti/*
+  419  rm -r git-basic-exercises
+  420  rmdir git-basic-exercises
+  421  ls
+  422  rmdir Learning_unix
+  423  ls
+  424  mkdir Hello
+  425  cd Hello
+  426  touch World.md
+  427  rmdir Hello
+  428  cd ..
+  429  rmdir Hello
+  430  rm -r Hello
+  431  ls
+  432  cd Hello
+  433  mkdir Hello
+  434  ls
+  435  cd Hello
+  436  touch HellOwORLD.md
+  437  touch Hey.txt
+  438  ls
+  439  rm i.*
+  440  rm -i*
+  441  rm -i
+  442  rm -i*.txt
+  443  man rm
+  444  cd ..
+  445  rm -i Hello
+  446  rm -r-i Hello
+  447  rm -r Hello
+  448  ls
+  449  cd Downloads
+  450  ls
+  451  clear
+  452  cd ..
+  453  mkdir git-basic-exercises
+  454  ls
+  455  cd git-basic-exercises
+  456  touch README.md
+  457  git status
+  458  git --status
+  459  clear
+  460  git -status
+  461  clear
+  462  git log
+  463  git init
+  464  ls -a
+  465  ls
+  466  git status
+  467  git add README.md
+  468  git status
+  469  git commit -m "Initial commit"
+  470  nano README.md
+  471  cat README.md
+  472  git status
+  473  git add README.md
+  474  git commit -m "second commit"
+  475  nano README.md
+  476  git status
+  477  git log
+  478  nano README.md
+  479  cat README.md
+  480  git add README.md
+  481  git status
+  482  git commit -m "third commit"
+  483  git status
+  484  git log
+  485  git checkout cc9f9424820508f57004983532f5335e5ca83dbf
+  486  cat README.md
+  487  git checkout main
+  488  git checkout master
+  489  cat README.md
+  490  git branch
+  491  git branch milkshake-flavours
+  492  git branch
+  493  git checkout milkshake-flavours
+  494  ls
+  495  pwd
+  496  git branch
+  497  nano milkshakes.md
+  498  cat milkshakes.md
+  499  git status
+  500  git add milkshakes.md
+  501  git commit -m "added initial flavours"
+  502  git log
+  503  git checkout master
+  504  git log
+  505  git checkout -b  history
+  506  git log
+  507  history > history.txt
